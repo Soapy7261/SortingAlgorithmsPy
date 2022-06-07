@@ -1,6 +1,6 @@
 import random, os
 os.system ("cls")
-output = True #Change this to True if you want to output the list if its not sorted yet, decreases performance though (;
+output = False #Change this to True if you want to output the list if its not sorted yet, decreases performance though (;
 comparsions = 0
 comparon = True #Turn this to False if you don't want to trade comparsions
 while True:
