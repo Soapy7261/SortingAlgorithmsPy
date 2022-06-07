@@ -17,7 +17,7 @@ while True:
         g3 = True
     if p3 > p4:
         g4 = True
-    if p4 == p5 + 1:
+    if p4 > p5:
         g5 = True
     if g1 and g2 and g3 and g4 and g5 == True:
         print (f"Sorted, {p0, p1, p2, p3, p4, p5}")
