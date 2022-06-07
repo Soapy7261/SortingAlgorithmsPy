@@ -1,7 +1,8 @@
 import random, os
 os.system ("cls")
-output = False #Change this to True if you want to output the list if its not sorted yet, decreases performance though (;
+output = True #Change this to True if you want to output the list if its not sorted yet, decreases performance though (;
 while True:
+    g1, g2, g3, g4, g5 = False, False, False, False, False
     p0 = random.randint(0,5)
     p1 = random.randint(0,5)
     p2 = random.randint(0,5)
@@ -10,24 +11,14 @@ while True:
     p5 = random.randint(0,5)
     if p0 > p1:
         g1 = True
-    else:
-        g1 = False
     if p1 > p2:
         g2 = True
-    else:
-        g2 = False
     if p2 > p3:
         g3 = True
-    else:
-        g3 = False
     if p3 > p4:
         g4 = True
-    else:
-        g4 = False
     if p4 == p5 + 1:
         g5 = True
-    else:
-        g5 = False
     if g1 and g2 and g3 and g4 and g5 == True:
         print (f"Sorted, {p0, p1, p2, p3, p4, p5}")
         break
