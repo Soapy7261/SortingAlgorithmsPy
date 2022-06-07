@@ -1,5 +1,5 @@
 import random, os
-os.system ("cls")
+os.system ("cls") #You might need to change this to "clear" depending on your OS
 output = False #Change this to True if you want to output the list if its not sorted yet, decreases performance though (;
 while True:
     g1, g2, g3, g4, g5 = False, False, False, False, False
