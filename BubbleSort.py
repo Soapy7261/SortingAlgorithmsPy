@@ -2,7 +2,7 @@ def sort(first:int, second:int, third:int, fourth:int, fifth:int, sixth:int, sev
     import time, os
     com = 0
     sleep = 0.1 #Change this time to how long you wanna want between messages
-    clea = "cls"
+    clea = "cls" #You might need to change this to "clear" depending on your OS
     os.system (clea)
     print (f"{first} {second} {third} {fourth} {fifth} {sixth} {seventh} {eighth} {ninth} {tenth}\nSwaps: {com}")
     time.sleep(sleep)
