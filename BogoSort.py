@@ -1,6 +1,6 @@
 import random, os
 os.system ("cls")
-output = True #Change this to True if you want to output the list if its not sorted yet, decreases performance though (;
+output = False #Change this to True if you want to output the list if its not sorted yet, decreases performance though (;
 while True:
     g1, g2, g3, g4, g5 = False, False, False, False, False
     p0 = random.randint(0,5)
